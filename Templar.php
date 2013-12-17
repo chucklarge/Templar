@@ -2,9 +2,6 @@
 class Templar {
     protected $vars = [];
 
-    public function __construct() {
-    }
-
     // Smarty interfaces
     public function assign($key, $value) {
         $this->vars[$key] = $value;
