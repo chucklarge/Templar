@@ -4,7 +4,8 @@
 $str = <<<EOD
 Example of string
 spanning multiple lines
-using heredoc syntax.
+using heredoc syntax. $bcontent
+<strong>$ccontent</strong>
 EOD;
 ?>
 
