@@ -1,5 +1,5 @@
 <?php
-require_once "Loader.php";
+require_once "Templar.php";
 
 $t = new Templar();
 $t->assign('title', 'Templar, the hottest templating engine');
